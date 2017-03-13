@@ -34,8 +34,10 @@
     "ember-data": "^2.11.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.6.0",
+    "ember-oauth2": "2.0.2-beta",
     "ember-resolver": "^2.0.3",
     "ember-source": "~2.11.0",
+    "ember-token-auth": "3.0.4-beta",
     "ember-welcome-page": "^2.0.2",
     "loader.js": "^4.0.10"
   },

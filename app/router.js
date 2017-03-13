@@ -7,6 +7,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('workspaces');
+  this.route('login');
+  this.route('logout');
+
+  this.route('oauth', function() {
+    this.route('callback');
+  });
 });
 
 export default Router;
