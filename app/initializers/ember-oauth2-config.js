@@ -2,9 +2,9 @@ export function initialize() {
   window.EmberENV['ember-oauth2'] = {
     model: 'user',
     incom: {
-      clientId: 'example-web-client',
+      clientId: 'example_web_app',
       authBaseUri: 'http://localhost:8888/api/v1/authorize',
-      redirectUri: 'http://localhost:4200/oauth/callback',
+      redirectUri: 'http://localhost:4300/oauth/callback',
       //scope: 'workspaces'
     }
   };
