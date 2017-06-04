@@ -3,8 +3,8 @@ export function initialize() {
     model: 'user',
     incom: {
       clientId: 'example_web_app',
-      authBaseUri: 'http://localhost:8888/api/v1/authorize',
-      redirectUri: 'http://localhost:4300/oauth/callback',
+      authBaseUri: 'http://138.68.108.146/authorize',
+      redirectUri: 'https://incom-oauth-implicit.surge.sh/oauth/callback',
       //scope: 'workspaces'
     }
   };
